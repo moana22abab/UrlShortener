@@ -7,8 +7,7 @@ my project has a web api that is used to shorten URLs, supports custom aliases, 
 ## Installation
 You must have PostgreSQL installed to your computer
 you will need to create a database with this commands in the NuGet Package Manager Console:
-  Add-Migration InitialCreate
-  Update-Database
+dotnet ef database update
 
 Use the .NET CLI to build and run the project.
 
